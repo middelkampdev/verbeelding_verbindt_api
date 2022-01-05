@@ -1,7 +1,7 @@
 import {Artist} from "./artist";
 import {ArtistRoutePreview} from "./artist-route-preview";
 import {ArtistRouteDetails} from "./artist-route-details";
-import {GeolocationJoplin} from "./geolocation";
+import {Geolocation} from "./geolocation";
 import {Profile} from "./profile";
 import {Speciality} from "./speciality";
 import {YoutubeVideo} from "./youtube-video";
@@ -12,7 +12,7 @@ export {
   Artist,
   ArtistRoutePreview,
   ArtistRouteDetails,
-  GeolocationJoplin,
+  Geolocation,
   Profile,
   Speciality,
   YoutubeVideo,

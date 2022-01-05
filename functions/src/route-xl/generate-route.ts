@@ -4,7 +4,7 @@ import {artistCollection} from "../config/firebase-admin";
 import {Location, TourResponse} from "./models/models";
 import * as firebaseAdmin from "firebase-admin";
 import {Headers} from "../shared/entities/headers";
-import {Artist, GeolocationJoplin} from "../shared/models/models";
+import {Artist, Geolocation} from "../shared/models/models";
 import {AxiosResponse} from "axios";
 import {
   UnauthenticatedError,
@@ -16,7 +16,7 @@ import {HttpsError} from "firebase-functions/v1/https";
 
 interface GenerateRouteParameters {
   artistIds: string[];
-  userLocation: GeolocationJoplin;
+  userLocation: Geolocation;
 }
 
 export const generateRoute = functions.https.onCall(

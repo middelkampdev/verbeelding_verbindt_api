@@ -1,4 +1,4 @@
-export interface GeolocationJoplin {
+export interface Geolocation {
   latitude: number;
   longitude: number;
 }
